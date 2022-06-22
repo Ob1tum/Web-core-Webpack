@@ -292,7 +292,7 @@
 .wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: space-between; }
 
 body {
   margin: 0px;
