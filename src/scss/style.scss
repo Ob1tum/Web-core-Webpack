@@ -1157,7 +1157,9 @@ body {
       width: 260px;
   }
   .modal-call .modal-call__content .modal-call__form,
-  .modal-call .modal-call__content .modal__text {
+  .modal-call .modal-call__content .modal__text,
+  .modal-feedback .modal-feedback__content .modal__text
+   {
       width: 280px;
       height: auto;
   }
