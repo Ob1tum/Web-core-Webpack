@@ -786,7 +786,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 1px; }
+  margin-bottom: 1px;
+  padding: 10px; }
 
 .cost-menu__item:first-child {
   color: #7E7E82;
