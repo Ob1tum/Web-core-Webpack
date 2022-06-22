@@ -986,21 +986,21 @@ body {
     flex-wrap: wrap; }
   .footer__items {
     font-size: 12px; }
-  .modal-call__content,
-  .modal-feedback__content {
+  .modal-call .modal-call__content,
+  .modal-feedback .modal-feedback__content {
     width: 300px; }
-  .modal-call__form input,
-  .modal-feedback__form,
-  .modal-feedback__form input,
-  .modal-feedback__form textarea {
+  .modal-call .modal-call__content .modal-call__form input,
+  .modal-feedback .modal-feedback__content .modal-feedback__form,
+  .modal-feedback .modal-feedback__content .modal-feedback__form input,
+  .modal-feedback .modal-feedback__content .modal-feedback__form textarea {
     width: 260px; }
-  .modal-call__form,
-  .modal__text {
+  .modal-call .modal-call__content .modal-call__form,
+  .modal-call .modal-call__content .modal__text {
     width: 280px;
     height: auto; }
-  .modal-call__close-button {
+  .modal-call .modal-call__content .modal-call__close-button {
     transform: translate(115px, -295px); }
-  .modal-feedback__close-button {
+  .modal-feedback .modal-feedback__content .modal-feedback__close-button {
     transform: translate(95px, -580px); } }
 
 
